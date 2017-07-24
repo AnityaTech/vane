@@ -11,7 +11,6 @@
 }
 .container
 {
-	position: relative;
 	width: 100%;
 	background: #cfd9e3;
 	margin-top: 20px;
@@ -22,23 +21,12 @@ img{
 width: 100%;	
 }
 
-.display{
-	position: absolute;
-	top: 225px;
-	left: 207px;
-	background: white;
-	width: 935px;
-	height: 540px;
-	z-index: 1;
-}
-
 .list
 {
 	padding: 11px 22px 0 0;
 	width: 913px;
 	height: 35px;
 	background: #2f2e2c;
-	position: absolute;
 	margin-top: -298px;
 	margin-left: 199px;
 	z-index: 1;
