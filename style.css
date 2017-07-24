@@ -24,31 +24,33 @@ width: 100%;
 
 .display{
 	position: absolute;
-	top: 234px;
+	top: 225px;
 	left: 207px;
-	background: lightgrey;
+	background: white;
 	width: 935px;
-	height: 529px;
+	height: 540px;
 	z-index: 1;
 }
 
 .list
 {
-	padding: 11px;
+	padding: 11px 22px 0 0;
 	width: 913px;
-	/*background: #141311;*/
+	height: 35px;
+	background: #2f2e2c;
 	position: absolute;
 	margin-top: -298px;
 	margin-left: 199px;
 	z-index: 1;
-	border-top: 2px solid black;
+	border-top: 1px solid grey;
 	/*border-radius: 2px 0px 11px 19px;*/
 }
 .list a
 {
-	padding: 10px 7px 10px 7px;
+	padding: 11px 10px 12px 10px;
 	color: #566aff;
 	text-decoration: none;
+	border-collapse: collapse;
 	/*font-family: cursive;
 	background: #2a2c2f;
 	margin-left: 117px;
@@ -57,5 +59,6 @@ width: 100%;
 
 .list a:hover{
 	cursor: pointer;
-	background: green;
+	background: black;
+	color: white;
 }
